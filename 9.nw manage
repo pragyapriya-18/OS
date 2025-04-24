@@ -1,0 +1,29 @@
+ENABLE INTERNET ON LINUX VM :--
+1. Make sure that wired network connection is turned on by going to the network tab in the settings
+2. Turn off the virtual machine if you still do not have the internet connection established
+3. Open network settings on virtual machine after closing the virtual machine
+4. Enable the network adapter in the machines network adapter settings, If it was unchecked then most probably that might be the reason behind the internet not working
+5. Select your network device
+6. Save the settings and start the virtual machine
+
+TEST AND MANAGE N/W USING FOLLOWING COMMENTS :--
+
+🐼: If config
+It stand for interface configuration and it display the ip address and mac address
+Used to check or change a system's network configuration.
+Syntax - ifconfig
+
+🐼: Iwconfig
+It's similar to the ip address but it display wireless interface.
+It shows Wi-Fi signal, frequency, and other wireless details
+Syntax - iwconfig
+
+🐼: Ethtool
+It's a networking utilities in Linux.It display the configuration of ethtool networking in Linux.
+It is used for checking speed and other hardware-level info.
+Syntax - ethtool
+
+🐼: Telnet
+Telnet is a command that create Remote connection of the system over the TCP/IP network.
+It helps in testing connectivity and accessing servers over a network.
+Syntax - telnet

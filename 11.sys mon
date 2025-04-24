@@ -1,0 +1,22 @@
+✅ top
+Shows real-time system performance like CPU, memory usage, running processes, etc.
+Used to monitor and manage system resources.
+Syntax: top
+
+✅ df
+Displays disk space usage of file systems in Linux.
+Command: df -h shows size in human-readable format.
+Syntax: df
+
+✅ iostat
+Reports CPU stats and input/output stats for devices.
+Used to monitor system I/O performance.
+Syntax: iostat
+
+✅ shutdown
+Used to turn off or restart the system safely.
+Example: shutdown -h now shuts down immediately.
+Syntax: 
+shutdown -h now   # Shuts down the system immediately
+shutdown -r now   # Reboots the system immediately
+

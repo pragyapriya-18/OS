@@ -1,0 +1,36 @@
+SYSTEM CALL fork():
+
+Explanation:
+The fork() system call is used to create a new process by duplicating the parent process. 
+After calling fork(), two processes are created: the parent process and the child process. 
+The child process is a copy of the parent but has a unique process ID (PID). 
+Both processes continue execution from the next instruction.
+
+Return Value:
+* Parent Process: Returns the PID of the child.
+*Child Process: Returns 0.
+
+Usage: 
+Used to perform multitasking.
+It’s mainly used in Unix/Linux systems for process creation 
+such as executing a program, handling requests, etc.
+
+Syntax: pid_t fork();
+
+Example:
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main() {
+    if (fork() == 0) {
+        printf("Child Process\n");
+    } else {
+        printf("Parent Process\n");
+    }
+    return 0;
+}
+
+Explanation:
+Parent Process: Executes the else block.
+Child Process: Executes the if block.

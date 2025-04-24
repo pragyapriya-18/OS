@@ -1,0 +1,29 @@
+🔹 What is VirtualBox?
+VirtualBox is a free and open-source software program, developed by Oracle. 
+It allows you to run multiple operating systems on your computer at the same time — 
+like running Linux on a Windows machine without affecting your main OS.
+
+It's like having a computer inside your computer. That "computer" is called a virtual machine (VM).
+
+🔹 Installation of VirtualBox:->
+
+Go to the website https://www.virtualbox.org
+
+Download VirtualBox for your operating system
+
+Open the downloaded file and click Next to install.
+
+Click Next through the options and then Install.
+
+After installation, click Finish to open VirtualBox.
+
+Download an ISO file of the OS you want to install (e.g., Ubuntu).
+
+Click New in VirtualBox to create a new VM.
+
+Set the name, memory size, and create a virtual hard disk.
+
+Go to Settings → Storage, attach the ISO file.
+
+Click Start to install OS installation inside VirtualBox.
+

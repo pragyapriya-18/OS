@@ -1,0 +1,21 @@
+cat:
+Used to show the content of a file on the screen.
+It is also used to create or join multiple files.
+Syntax: cat filename
+
+free:
+Shows how much memory (RAM) is used and how much is free.
+Helps in checking memory status.
+Shows the system's memory usage, including free and used memory.
+Syntax: free
+
+vmstat:
+It display the system performance details like memory and CPU usage and process status.
+Useful for finding performance issues.
+Syntax: vmstat
+
+ping:
+Ping(packet internet groper)it is used to checks the network connectivity b/n host and a server
+It sends a signal to another computer and waits for a reply.
+Also shows how fast the connection is.
+Syntax: ping hostname_or_IP

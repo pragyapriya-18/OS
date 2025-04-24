@@ -1,0 +1,37 @@
+FILE AND DIRECTORY COMMANDS:-->
+
+1. MKDIR:--
+Definition: The mkdir command is used to create a new directory or folder in the specified path. 
+Syntax: mkdir directoryname
+Example: mkdir newfolder
+
+2. RMDIR
+Definition: The rmdir command is used to remove an empty directory. If the directory contains files or subdirectories, it will not be deleted.
+Syntax: rmdir directoryname
+Example: rmdir oldfolder
+
+
+COMMANDS FOR FILE VIEWING:-->
+
+3. CAT
+Definition: The cat command is used to display the contents of a file on the terminal. 
+It can also be used to concatenate and create files.
+Syntax: cat filename
+Example: cat file.txt
+
+ TEXT PROCESSING COMMANDS:-->
+  
+4. HEAD
+Definition: The head command is used to display the first few lines (default is 10) of a file. 
+It is helpful for previewing the contents of large files.
+Syntax: head filename
+Example: head file.txt
+
+5. TAIL
+Definition: The tail command displays the last few lines (default is 10) of a file.
+It is useful for monitoring log files or viewing the most recent data in a file.
+Syntax: tail filename
+Example: tail file.txt
+ 
+  
+
