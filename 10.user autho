@@ -49,6 +49,8 @@ CONFIGURATION:-
 4.db backend? - MDB 
 5. omit open LDAP server configuration? - No 
 
+--------------------------------------------------------------------------------------------------------
+
 phpLDAPadmin:--
 *phpLDAPadmin is a web-based interface for managing LDAP directories.
 *It simplifies LDAP operations like adding, editing, and deleting entries.

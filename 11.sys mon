@@ -9,13 +9,13 @@ Command: df -h shows size in human-readable format.
 Syntax: df
 
 ✅ iostat
-Reports CPU stats and input/output stats for devices.
-Used to monitor system I/O performance.
+It shows CPU and input/output stats for devices.it helps to check system performance.
+Also helps to find if the system is slow.
 Syntax: iostat
 
 ✅ shutdown
 Used to turn off or restart the system safely.
-Example: shutdown -h now shuts down immediately.
+Makes sure all processes close properly before shutdown or reboot.
 Syntax: 
 shutdown -h now   # Shuts down the system immediately
 shutdown -r now   # Reboots the system immediately

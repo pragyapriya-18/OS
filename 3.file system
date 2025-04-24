@@ -15,7 +15,7 @@ COMMANDS FOR FILE VIEWING:-->
 
 3. CAT
 Definition: The cat command is used to display the contents of a file on the terminal. 
-It can also be used to concatenate and create files.
+It can also be used to create files.
 Syntax: cat filename
 Example: cat file.txt
 
@@ -23,13 +23,13 @@ Example: cat file.txt
   
 4. HEAD
 Definition: The head command is used to display the first few lines (default is 10) of a file. 
-It is helpful for previewing the contents of large files.
+Useful for previewing large files.
 Syntax: head filename
 Example: head file.txt
 
 5. TAIL
 Definition: The tail command displays the last few lines (default is 10) of a file.
-It is useful for monitoring log files or viewing the most recent data in a file.
+It is also useful to check the lataest updates in a file.
 Syntax: tail filename
 Example: tail file.txt
  

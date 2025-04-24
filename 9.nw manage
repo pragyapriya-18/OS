@@ -1,10 +1,12 @@
-ENABLE INTERNET ON LINUX VM :--
-1. Make sure that wired network connection is turned on by going to the network tab in the settings
-2. Turn off the virtual machine if you still do not have the internet connection established
-3. Open network settings on virtual machine after closing the virtual machine
-4. Enable the network adapter in the machines network adapter settings, If it was unchecked then most probably that might be the reason behind the internet not working
-5. Select your network device
-6. Save the settings and start the virtual machine
+ENABLE INTERNET ON LINUX VM :--  
+1.Open VirtualBox and choose your Linux VM.
+2.Click on Settings and go to the Network tab.
+3.In Adapter 1, make sure "Enable Network Adapter" is ticked.
+4.Set "Attached to" as NAT (this gives internet from your host computer).
+5.Click OK to save the settings.
+6.Start your Linux VM.
+7.Open the terminal and type: "ping google.com"
+8.If you see replies, internet is working in your VM.
 
 TEST AND MANAGE N/W USING FOLLOWING COMMENTS :--
 
@@ -14,16 +16,17 @@ Used to check or change a system's network configuration.
 Syntax - ifconfig
 
 🐼: Iwconfig
-It's similar to the ip address but it display wireless interface.
-It shows Wi-Fi signal, frequency, and other wireless details
-Syntax - iwconfig
+It is similar to ifconfig but used for wireless interfaces.
+It shows Wi-Fi signal strength, frequency, and other wireless details.
+It helps to check and manage Wi-Fi settings.
 
 🐼: Ethtool
-It's a networking utilities in Linux.It display the configuration of ethtool networking in Linux.
-It is used for checking speed and other hardware-level info.
+It is a network tool in Linux.It is used to check speed and other hardware info.
+It display the configuration of ethtool networking in Linux..
+Helps to view or change network settings.
 Syntax - ethtool
 
 🐼: Telnet
 Telnet is a command that create Remote connection of the system over the TCP/IP network.
-It helps in testing connectivity and accessing servers over a network.
+It helps in testing connectivity.Mostly used for troubleshooting and remote system access.
 Syntax - telnet
