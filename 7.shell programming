@@ -14,23 +14,23 @@ fi
 
 if [ $a! = $b ]
 then
-echo " $a! = $b " a is not equal to b"
+echo " $a! = $b: a is not equal to b"
 else
 echo "a is equal to b"
 fi 
 
 if [ -Z$a ]
 then 
-echo "-Z$a: string length zero"
+echo "-Z $a: string length zero"
 else
-echo "-Z$a: string length is not zero"
+echo "-Z $a: string length is not zero"
 fi
 
 if [ -n$a ]
 then 
-echo "-n$a: string lenght not zero"
+echo "-n $a: string lenght not zero"
 else
-echo "-n$a: string length is zero"
+echo "-n $a: string length is zero"
 fi
 
 if [ $a ]
