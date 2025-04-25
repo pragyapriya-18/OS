@@ -1,29 +1,35 @@
 useradd:
 The useradd command is used to create a new user in the system with specified attributes.
-Syntax: useradd [options] username 
+Syntax: sudo adduser [option]
+ex:- sudo adduser oslab1
 
 userdel:
 The userdel command deletes a user account from the system.
-Syntax: userdel [options] username 
+Syntax: sudo userdel [option] 
+ex:- sudo userdel oslab1
 It removes the user’s home directory if specified.
 
 usermod:
 The usermod command modifies an existing user account’s attributes such as login name, home directory, and shell.
-Syntax: usermod [options] username 
+Syntax: usermod -l newusername oldusername
+ex:- usermod -l oslab2 oslab1
 Commonly used for modifying user’s group 
 
 groupadd:
 The groupadd command is used to create a new group on the system.
-Syntax: groupadd [options] groupname – 
+Syntax: sudo groupadd [options] 
+ex:- sudo groupadd b1
 
 groupmod:
 The groupmod command modifies the properties of an existing group, such as group name or group ID.
-Syntax: groupmod [options] groupname 
+Syntax: sudo groupmod -n groupname groupnewname
+ex:- sudo -n b2 b1
 Typically used to rename or change a group's GID.
 
 groupdel:
 The groupdel command removes an existing group from the system.
-Syntax: groupdel groupname 
+Syntax: sudo groupdel [option]
+ex:- sudo groupdel b2
 The command will not remove users assigned to the group; it only deletes the group.
 
 ---------------------------------------------------------------------------------------------------------------
