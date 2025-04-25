@@ -20,26 +20,26 @@ The groupadd command is used to create a new group on the system.
 Syntax: sudo groupadd [options] 
 ex:- sudo groupadd b1
 
-groupmod:
-The groupmod command modifies the properties of an existing group, such as group name or group ID.
-Syntax: sudo groupmod -n groupname groupnewname
-ex:- sudo -n b2 b1
-Typically used to rename or change a group's GID.
-
 groupdel:
 The groupdel command removes an existing group from the system.
 Syntax: sudo groupdel [option]
 ex:- sudo groupdel b2
 The command will not remove users assigned to the group; it only deletes the group.
 
+groupmod:
+The groupmod command modifies the properties of an existing group, such as group name or group ID.
+Syntax: sudo groupmod -n groupname groupnewname
+ex:- sudo -n b2 b1
+Typically used to rename or change a group's GID.
+
 ---------------------------------------------------------------------------------------------------------------
 
 LDAP:--
-* Lightweight directory access protocol (LDAP) is a standard protocol designed to manage and 
-accesshierachichal directory information over a network.
+*Lightweight directory access protocol (LDAP) is a standard protocol designed to manage and 
+access hierachichal directory information over a network.
 *It is stored all type of information.
-*It used phpLDAPadminto interface for viewing and manipulating LDAPi information.
-*LDAP is often called a centralized system for storing and managing data like users,groups etc. 
+*It used phpLDAPadmin to interface for viewing and manipulating LDAP information.
+*LDAP is also called a centralized system for storing and managing data like users,groups etc. 
 
 INSTALLATION:-
 *Install the LDAP server and some associated utilities.
@@ -51,15 +51,15 @@ CONFIGURATION:-
 *There are few ques to ans it its process.Questions are:-
 1.allow LDAP v2 protocol? - No 
 2.move old db? - yes
-3.remove the db when slapdis purged? - No 
+3.remove the db when slapd is purged? - No 
 4.db backend? - MDB 
-5. omit open LDAP server configuration? - No 
+5.omit open LDAP server configuration? - No 
 
 --------------------------------------------------------------------------------------------------------
 
 phpLDAPadmin:--
-*phpLDAPadmin is a web-based interface for managing LDAP directories.
-*It simplifies LDAP operations like adding, editing, and deleting entries.
+*It is a web tool used to manage LDAP directories easily.
+*You can use LDAP operations like adding, editing, and deleting entries.
 
 INSTALLATION:-
 1.sudo apt-get update
